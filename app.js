@@ -30,6 +30,4 @@ var routes = require('./routes');
 // Setting Port to listen on
 var PORT = process.env.PORT || 4000;
 
-app.listen(PORT, function(req, res) {
-  console.log('Listening on Port: ' + PORT);
-});
+app.listen(PORT);
